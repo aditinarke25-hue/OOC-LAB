@@ -7,6 +7,12 @@ int employee_id;
 string name;
 float salary;
 public:
+employee()
+{
+employee_id=0;
+name="____";
+salary=0;
+}
 employee(int i,string n,float s)
 {
 employee_id=i;
@@ -17,13 +23,14 @@ void display()
 {
 cout<<"Employee Id : "<<employee_id<<endl;
 cout<<"Employee Name : "<<name<<endl;
-cout<<"Employee salary per annum  : "<<salary;
+cout<<"Employee salary per annum : "<<salary<<endl;
 }
 };
 int main()
 {
-employee e(59,"Harish Toraskar" ,3.9);
-e.display();
+employee e1;
+employee e2(59,"Harish Toraskar" ,3.9);
+e1.display();
+e2.display();
 return 0;
 }
-
