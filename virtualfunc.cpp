@@ -52,3 +52,7 @@ int main()
 
     return 0;
 }
+
+/*
+Area of Circle = 153.938
+Area of Rectangle = 33.6*/
